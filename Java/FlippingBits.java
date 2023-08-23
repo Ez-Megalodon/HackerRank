@@ -1,3 +1,4 @@
+package Java;
 
 public class FlippingBits {
     public static void main(String[] args) {

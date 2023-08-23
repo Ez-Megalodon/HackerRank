@@ -1,3 +1,5 @@
+package Java;
+
 public class TimeConversion {
     public static String timeConversion(String s) {
         s = s.toLowerCase();

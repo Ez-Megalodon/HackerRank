@@ -1,3 +1,4 @@
+package Java;
 
 import java.util.*;
 
@@ -30,9 +31,9 @@ public class InstanceofKeyword{
         int t = sc.nextInt();
         for(int i=0; i<t; i++){
             String s=sc.next();
-            if(s.equals("Student"))mylist.add(new Student());
-            if(s.equals("Rockstar"))mylist.add(new Rockstar());
-            if(s.equals("Hacker"))mylist.add(new Hacker());
+            if(s.equals("Java.Student"))mylist.add(new Student());
+            if(s.equals("Java.Rockstar"))mylist.add(new Rockstar());
+            if(s.equals("Java.Hacker"))mylist.add(new Hacker());
         }
         System.out.println(count(mylist));
     }

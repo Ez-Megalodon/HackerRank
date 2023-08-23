@@ -1,10 +1,12 @@
+package Java;
+
 import java.util.Scanner;
 
 public class Calculator {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the Calculator app! What would you like to do?");
+        System.out.println("Welcome to the Java.Calculator app! What would you like to do?");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
