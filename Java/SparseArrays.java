@@ -7,10 +7,10 @@ public class SparseArrays {
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
         List<Integer> nums = new ArrayList<>();
         int total = 0;
-        for (int i = 0; i < queries.size(); i++){
+        for (String query : queries) {
             total = 0;
-            for (int k = 0; k < strings.size(); k++){
-                if (strings.get(k).equals(queries.get(i))){
+            for (String string : strings) {
+                if (string.equals(query)) {
                     total++;
                 }
             }
