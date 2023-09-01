@@ -4,6 +4,7 @@ import java.util.*;
 
 class JavaMap {
     public static void main(String[] argh) {
+
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         in.nextLine();
